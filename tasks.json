@@ -1,0 +1,142 @@
+[
+  {
+    "ID": 1,
+    "Titel": "Velkomst",
+    "Beskrivelse": "Start ved hovedindgangen til Nymindegablejren.",
+    "Type": "Land",
+    "Lokation": "55.7398, 8.2501",
+    "Radius": 20,
+    "Valgmuligheder": "Start;Læs historie først",
+    "Aktiveringsbetingelse": "Lokalitet"
+  },
+  {
+    "ID": 2,
+    "Titel": "Gamle forsvarsstilling",
+    "Beskrivelse": "Find hvilken type anlæg der tidligere lå her.",
+    "Type": "Land",
+    "Lokation": "55.7405, 8.2520",
+    "Radius": 30,
+    "Valgmuligheder": "Kanonstilling;Ammunitionsdepot;Lyttepost",
+    "Aktiveringsbetingelse": "Zone"
+  },
+  {
+    "ID": 3,
+    "Titel": "Observation",
+    "Beskrivelse": "Hvad kan du se fra udkigspunktet?",
+    "Type": "Land",
+    "Lokation": "55.7412, 8.2498",
+    "Radius": 25,
+    "Valgmuligheder": "Indtrængningsrute;Skjult område;Ingen aktivitet",
+    "Aktiveringsbetingelse": "Lokalitet"
+  },
+  {
+    "ID": 4,
+    "Titel": "Mistænkelig aktivitet",
+    "Beskrivelse": "Undersøg området ved Bygning B.",
+    "Type": "Land",
+    "Lokation": "55.7401, 8.2480",
+    "Radius": 15,
+    "Valgmuligheder": "Undersøg døren;Tjek spor;Afgiv melding",
+    "Aktiveringsbetingelse": "Lokalitet"
+  },
+  {
+    "ID": 5,
+    "Titel": "Historisk punkt",
+    "Beskrivelse": "Læs skiltet og svar på et spørgsmål.",
+    "Type": "Land",
+    "Lokation": "55.7395, 8.2512",
+    "Radius": 10,
+    "Valgmuligheder": "Årstal;Placeringens formål",
+    "Aktiveringsbetingelse": "Lokalitet"
+  },
+  {
+    "ID": 6,
+    "Titel": "Gennemsøg område",
+    "Beskrivelse": "Markér området som gennemsøgt.",
+    "Type": "Land",
+    "Lokation": "55.7420, 8.2530",
+    "Radius": 50,
+    "Valgmuligheder": "Sikkert;Fundet genstand",
+    "Aktiveringsbetingelse": "Zone"
+  },
+  {
+    "ID": 7,
+    "Titel": "Fund beslutning",
+    "Beskrivelse": "Du har fundet en genstand. Hvad gør du?",
+    "Type": "Land",
+    "Lokation": "55.7420, 8.2530",
+    "Radius": 10,
+    "Valgmuligheder": "Afspær;Indberet;Undersøg",
+    "Aktiveringsbetingelse": "Afhængighed"
+  },
+  {
+    "ID": 8,
+    "Titel": "Start rute fra havn",
+    "Beskrivelse": "Sæt kurs mod første waypoint.",
+    "Type": "Sø",
+    "Lokation": "56.1541, 8.5681",
+    "Radius": 100,
+    "Valgmuligheder": "Kurs WP1;Sikkerhedstjek",
+    "Aktiveringsbetingelse": "Rute start"
+  },
+  {
+    "ID": 9,
+    "Titel": "Nødsignal mod nord",
+    "Beskrivelse": "Modtag nødsignal og reager.",
+    "Type": "Sø",
+    "Lokation": "56.2000, 8.6000",
+    "Radius": 500,
+    "Valgmuligheder": "Sejl mod signal;Ignorer",
+    "Aktiveringsbetingelse": "Signal"
+  },
+  {
+    "ID": 10,
+    "Titel": "Sigtet observation",
+    "Beskrivelse": "Hvad observeres i søgeområdet?",
+    "Type": "Sø",
+    "Lokation": "56.2100, 8.6200",
+    "Radius": 75,
+    "Valgmuligheder": "Flåde;Person i vandet;Intet tegn",
+    "Aktiveringsbetingelse": "Radius"
+  },
+  {
+    "ID": 11,
+    "Titel": "Man over bord",
+    "Beskrivelse": "Marker og håndter muligt menneske i vandet.",
+    "Type": "Sø",
+    "Lokation": "56.2120, 8.6300",
+    "Radius": 30,
+    "Valgmuligheder": "Optagning;Assistance;Markér position",
+    "Aktiveringsbetingelse": "Lokalitet"
+  },
+  {
+    "ID": 12,
+    "Titel": "Boarding kontrol",
+    "Beskrivelse": "Nær et fartøj der skal kontrolleres.",
+    "Type": "Sø",
+    "Lokation": "56.2150, 8.6400",
+    "Radius": 40,
+    "Valgmuligheder": "Radiokontakt;Boarding;Afvent",
+    "Aktiveringsbetingelse": "Zone"
+  },
+  {
+    "ID": 13,
+    "Titel": "Undvig objekt",
+    "Beskrivelse": "Reager på muligt minelignende objekt.",
+    "Type": "Sø",
+    "Lokation": "56.2180, 8.6500",
+    "Radius": 60,
+    "Valgmuligheder": "Ændr kurs;Vurdér igen;Stop maskine",
+    "Aktiveringsbetingelse": "Radius"
+  },
+  {
+    "ID": 14,
+    "Titel": "Tilbage til havn",
+    "Beskrivelse": "Afslut missionen og returnér.",
+    "Type": "Sø",
+    "Lokation": "56.1541, 8.5681",
+    "Radius": 100,
+    "Valgmuligheder": "Afslut;Debrief",
+    "Aktiveringsbetingelse": "Rute slut"
+  }
+]
